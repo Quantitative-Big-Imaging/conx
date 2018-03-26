@@ -12,3 +12,4 @@ python -c "import conx as cx; cx.Dataset.get('cifar10')"
 python -c "import conx as cx; cx.Dataset.get('cmu_faces_full_size')"
 python -c "import conx as cx; cx.Dataset.get('cmu_faces_half_size')"
 python -c "import conx as cx; cx.Dataset.get('cmu_faces_quarter_size')"
+jupyter trust notebooks/*.ipynb
