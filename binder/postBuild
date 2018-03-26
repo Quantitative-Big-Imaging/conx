@@ -13,3 +13,15 @@ python -c "import conx as cx; cx.Dataset.get('cmu_faces_full_size')"
 python -c "import conx as cx; cx.Dataset.get('cmu_faces_half_size')"
 python -c "import conx as cx; cx.Dataset.get('cmu_faces_quarter_size')"
 jupyter trust notebooks/*.ipynb
+git clone https://github.com/Calysto/notebook-extensions.git
+cd notebook-extensions
+jupyter nbextension install calysto --user
+cd ..
+jupyter nbextension enable calysto/document-tools/main
+jupyter nbextension enable calysto/cell-tools/main
+jupyter nbextension enable calysto/spell-check/main
+jupyter nbextension enable calysto/publish/main
+jupyter nbextension enable calysto/submit/main
+jupyter nbextension enable calysto/annotate/main
+# check installation
+jupyter nbextension list
