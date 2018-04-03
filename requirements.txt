@@ -11,4 +11,3 @@ tqdm
 requests
 pydot
 cairosvg
-scikit-image

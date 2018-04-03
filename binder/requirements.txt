@@ -21,3 +21,4 @@ metakernel
 pydot
 jyro
 appmode
+scikit-image
