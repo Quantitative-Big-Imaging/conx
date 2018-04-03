@@ -6,6 +6,13 @@ Built in Python 3 on Keras 2.
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Quantitative-Big-Imaging/conx/master?filepath=notebooks%2F00_Index.ipynb) [![CircleCI](https://circleci.com/gh/Calysto/conx/tree/master.svg?style=svg)](https://circleci.com/gh/Calysto/conx/tree/master) [![codecov](https://codecov.io/gh/Calysto/conx/branch/master/graph/badge.svg)](https://codecov.io/gh/Calysto/conx) [![Documentation Status](https://readthedocs.org/projects/conx/badge/?version=latest)](http://conx.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/conx.svg)](https://badge.fury.io/py/conx)
 
+
+## Demos
+
+ - [![imagetool](https://img.shields.io/badge/launch-UNET_Demo-yellow.svg)](http://mybinder.org/v2/gh/Quantitative-Big-Imaging/conx/master?urlpath=%2Fapps%2Fseg_notebooks%2FUNetDemo.ipynb)
+
+## documentation
+
 Read the documentation at [conx.readthedocs.io](http://conx.readthedocs.io/)
 
 Ask questions on the mailing list: [conx-users](https://groups.google.com/forum/#!forum/conx-users)
