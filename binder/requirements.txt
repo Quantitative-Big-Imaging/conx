@@ -20,3 +20,4 @@ recommonmark
 metakernel
 pydot
 jyro
+appmode
