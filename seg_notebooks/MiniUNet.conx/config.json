@@ -3,8 +3,8 @@
     "font_family": "monospace",
     "border_top": 25,
     "border_bottom": 25,
-    "hspace": 150,
-    "vspace": 30,
+    "hspace": 300,
+    "vspace": 50,
     "image_maxdim": 200,
     "image_pixels_per_unit": 50,
     "activation": "linear",
@@ -12,18 +12,18 @@
     "arrow_width": "2",
     "border_width": "2",
     "border_color": "black",
-    "show_targets": false,
+    "show_targets": true,
     "show_errors": false,
     "pixels_per_unit": 1,
     "precision": 2,
-    "svg_scale": null,
+    "svg_scale": 1.0,
     "svg_rotate": true,
     "svg_preferred_size": 400,
     "svg_max_width": 800,
     "dashboard.dataset": "Train",
-    "dashboard.features.bank": "conv_5",
-    "dashboard.features.columns": 3,
-    "dashboard.features.scale": 1.0,
+    "dashboard.features.bank": "conv_4",
+    "dashboard.features.columns": 8,
+    "dashboard.features.scale": 0.5,
     "config_layers": {
         "input": {
             "visible": true,
@@ -200,11 +200,14 @@
         },
         "output": {
             "visible": true,
-            "minmax": null,
+            "minmax": [
+                0.0,
+                1.0
+            ],
             "vshape": null,
             "image_maxdim": null,
             "image_pixels_per_unit": null,
-            "colormap": null,
+            "colormap": "bone",
             "feature": 0,
             "max_draw_units": 20
         }
